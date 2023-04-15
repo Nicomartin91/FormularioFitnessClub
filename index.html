@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Proyecto formularios</title>
+    <link rel="stylesheet" href="estilo.css"/>
+    <script src="./app.js"></script>
+</head>
+<header>
+    <img src="./imagenes/logoGimnasio.webp" id="logoSup" width="200px" height="200px" align="left">
+    <img src="./imagenes/logoGimnasio.webp" id="logoSup" width="200px" height="200px" align="right">
+    <h1> FORMULARIO DE INSCRIPCIÓN-GIMNASIO "FITNESS CLUB":</h1>
+    <br>
+</header>
+<body>
+    <div id="container">
+    <form>
+        <fieldset>   
+            <section id="datos"></section>
+            <legend align="left" id="datosPersonales">Datos Personales</legend>
+            <br>
+         
+        <label for="name">Nombre:</label>
+        <input id="name" type="text" name="nombre"><br>
+        <br>
+        <label for="surname">Apellido:</label>
+        <input id="surname" type="text" name="surname"><br>
+        <br>
+        <label for="adress">Dirección:</label>
+        <input id="adress" type="text" name="adress"><br>
+        <br>
+        <label for="phone">Telefono:</label>
+        <input id="phone" type="text" name="phone"><br>
+        <br>
+        <input type="reset" value="Resetear"><br>
+        <br>
+    </section>
+        </fieldset>
+</form>
+<form id="formulario" onsubmit="calcularIMC(); return false">
+        <fieldset>
+            <legend align="left" id="imc">Calcular indice de masa corporal (IMC):</legend>
+            <br>
+        <label for="peso">Peso (en KG):</label> 
+        <input id="peso" type="number" required="required"><br>
+        <br>
+         <label for="altura">Altura (en CM):</label> 
+        <input id="altura" type="number" required="required"><br>
+        <br>
+        <button type="submit">Calcular</button>
+        <input type="reset" value="Resetear"><br>
+        <br>
+</form> 
+<form>
+    
+    </fieldset>
+
+        <Fieldset>
+            <legend align ="left" id="datosMedicos">Datos Medicos:</legend><br>
+            <h4>Indique segun corresponda:</h4><br>
+        <p>Realiza actividad fisica?:</p><br>
+        <input type="radio" name="actividad" value="actividad">
+        <label for="actividad">Seguido (5-6 veces por semana).</label><br>
+        <br>
+        <input type="radio" name="actividad" value="actividad">
+        <label for="actividad">Regularmente (3-4 veces por semana).</label><br>
+        <br>
+        <input type="radio" name="actividad" value="actividad">
+        <label for="actividad">Poco (Menos de 3 veces por semana).</label><br>
+        <br>
+        <input type="radio" name="actividad" value="actividad">
+        <label for="actividad">Nada. (No realiza actividad fisica).</label><br>
+        <br>
+        <br>
+        <h4>Posee alguna enfermedad a tener en cuenta?:</h4><br>
+        <input type="radio" name="enfermedad" value="enfermedad">
+        <label for="enfermedad">SI</label>
+        <input type="radio" name="enfermedad" value="enfermedad">
+        <label for="enfermedad">NO</label><br>
+        <br>
+        <br>
+        <label for="padecimiento">De ser "SI" su respuesta, cuál?:</label>
+        <input id="padecimiento" type="text" name="padecimiento"><br>
+        <br>
+        <h4>Toma algun tipo de medicamento?:</h4><br>
+        <input type="radio" name="medicamento" value="medicamento">
+        <label for="medicamento">SI</label>
+        <input type="radio" name="medicamento" value="medicamento">
+        <label for="medicamento">NO</label><br>
+        <br>
+        <label for="medicamentoSi">De ser "SI" su respuesta, cuál?:</label>
+        <input id="medicamentoSi" type="text" name="medicamentoSi"><br>
+        <br>
+        <h4>Es alergico a algo?:</h4><br>
+        <input type="radio" name="alergia" value="alergia">
+        <label for="alergia">SI</label>
+        <input type="radio" name="alergia" value="alergia">
+        <label for="alergia">NO</label><br>
+        <br>
+        <label for="alergiaSi">De ser "SI" su respuesta, a que es alérgico?:</label>
+        <input id="alergiaSi" type="text" name="alergiaSi"><br>
+        <br>
+<input type="reset" value="Resetear"><br>
+<br>
+        </Fieldset>
+
+    </form>
+    <fieldset>
+<legend align="left" id="add">Adicional:</legend><br>
+<label for="adicional"><h4>Ingrese certificado medico de aptitud fisica:</h4></label><br>
+<input type="file" name="file">
+<br>
+<br>
+
+    </fieldset>
+    <br>
+  <div id="enviar">
+    <input type="submit" value="Enviar" id="botonEnviar" style='width:130px; height:30px'><br>
+    <br>
+    <script src="./app.js"></script>
+   </div>
+</div>
+</body>
+<footer>
+<div id="footer">
+    <img src="./imagenes/logoGimnasio.webp" id="logoFoot" width="100px" height="100px" align="left">
+    <img src="./imagenes/logoGimnasio.webp" id="logoFoot" width="100px" height="100px" align="right">
+<p>GIMNASIO - FITNESS CLUB</p><br>
+<p>- Numero de telefono - Direccion - Redes Sociales -</p>
+
+
+
+
+</div>
+</footer>
+</html>

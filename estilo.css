@@ -1,0 +1,98 @@
+
+
+header{
+    margin: 1%;
+    background: url(./imagenes/portada\ gimnasio3.jpg);
+    background-size: 600px;
+    background-color: antiquewhite;
+    padding: 10px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 80px;
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h1{
+    padding: 2px;
+    margin: 40px;
+    color:rgb(64, 10, 115);
+    background-color: lightgrey;
+}
+
+#container{
+    background-color: beige;
+    width: 70%;
+    margin: 0px auto;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 120%;
+}
+
+body{
+    margin: 1%;
+    background: url(./imagenes/Gimnasio3.webp);
+    background-size: 100%;
+    background-color: aquamarine;
+    font-family: Arial, Helvetica, sans-serif;
+    border-color: blue;
+}
+
+#enviar{
+    padding: 30px;
+}
+
+#footer{
+    margin: 2%;
+    background-color: rgb(64, 10, 115);
+    color:lightgray;
+    text-align: center;
+    padding: 10px;
+    border-radius: 20px;
+    line-height: 13px;
+    font-style: oblique;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+}
+
+#datosPersonales{
+    color: rgb(64, 10, 115);
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#imc{
+    color: rgb(64, 10, 115);
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#datosMedicos{
+    color: rgb(64, 10, 115);
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#imc{
+    color: rgb(64, 10, 115);
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#add{
+    color: rgb(64, 10, 115);
+    background-color: lightgray;
+    font-style: italic;
+    font-size: 30px;
+}
+
+#logoSup{
+    border-radius: 100px;
+}
+
+#logoFoot{
+    border-radius: 100px;
+}
